@@ -1,7 +1,10 @@
 .choresText {
-   color: black;
+   color: orange;
+   font-size: 2rem;
+   font-style: italic;
 }
 
 .choresHeading {
    color: black;
+   text-decoration: underline;
 }
