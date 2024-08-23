@@ -30,7 +30,7 @@ class RecipeDescription extends React.Component {
                 </div>
                 <RecipeAuthor />
             </div>
-        )
+        );
     }
 }
 
