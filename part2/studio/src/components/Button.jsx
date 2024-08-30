@@ -1,5 +1,10 @@
-function Button() {
-   return;
+import ClickedButton from "./ClickedButton";
+import SaveButton from "./SaveButton";
+import "./styling.css";
+
+function Button(props) {
+  const saveButton = props.saveButton;
+  return saveButton ? <SaveButton /> : <ClickedButton />;
  }
  
  export default Button;
